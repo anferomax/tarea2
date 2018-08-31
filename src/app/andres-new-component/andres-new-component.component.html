@@ -1,0 +1,22 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{persona.name}}</mat-card-title>
+    <mat-card-subtitle>Tururu tururuuuu</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="http://as01.epimg.net/tikitakas/imagenes/2017/05/21/portada/1495375093_957772_1495375245_noticia_normal.jpg" alt="Terminator">
+  <mat-card-content>
+    <p>
+      En el año 2029, después de devastar la Tierra y esclavizar a la humanidad, las máquinas, gobernadas por la inteligencia artificial conocida como Skynet, están a punto de perder la guerra contra la resistencia humana liderada por John Connor. Frente a esa situación, las máquinas entienden que asesinar a John Connor en el presente, sería irrelevante, dado que ya ha conducido a la resistencia humana del mundo entero a la victoria. Por lo tanto, Skynet elabora su estrategia decidiendo eliminar al líder enemigo antes de que éste nazca, de modo que no pueda cumplirse su misión de conducción futura. Para ello envía al pasado (al año 1984) a un Terminator T-800 modelo Cyberdyne 101, un cíborg asesino (Arnold Schwarzenegger), a través de una máquina del tiempo, con la misión de exterminar a Sarah Connor (Linda Hamilton), madre de John, antes de que éste sea concebido.
+      
+      <br><br>Red Social: {{persona.social_network_url}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="like()" >LIKE</button>
+    <button mat-button (click)="dislike()" >DISLIKE</button>
+  </mat-card-actions>
+</mat-card>
+<p>Likes: {{ likes }}</p>
+<p>Dislikes: {{ dislikes }}</p>
+<p>Total votos: {{ total_likes }}</p>

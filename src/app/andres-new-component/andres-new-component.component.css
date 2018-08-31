@@ -1,0 +1,8 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('http://cadenaser00.epimg.net/programa/imagenes/2018/04/16/la_script/1523861383_254156_1523861571_noticia_normal.jpg');
+    background-size: cover;
+  }
