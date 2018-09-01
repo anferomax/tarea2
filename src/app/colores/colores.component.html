@@ -1,0 +1,8 @@
+{{date | date:'longDate'}}
+<br>
+<button [disabled]="disabled" (click)="onClick2()" >boton</button>
+<p [innerHTML]="'Hola Mundo! ' + texto" [style.background]="label" > </p>
+<label >color:</label><input id="mivalor" [value]="label" (keyup)="onClick($event)">
+<label >tamaño:</label><input id="mivalor" [value]="label" (keyup)="onClick($event)">
+<h1>{{ label }}</h1>
+<h2>{{ hola }}</h2>
